@@ -1,0 +1,267 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>RizzCasinoLogo.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\10_of_clubs.png" />
+    <None Remove="Resources\10_of_diamonds.png" />
+    <None Remove="Resources\10_of_hearts.png" />
+    <None Remove="Resources\10_of_spades.png" />
+    <None Remove="Resources\2_of_clubs.png" />
+    <None Remove="Resources\2_of_diamonds.png" />
+    <None Remove="Resources\2_of_hearts.png" />
+    <None Remove="Resources\2_of_spades.png" />
+    <None Remove="Resources\3_of_clubs.png" />
+    <None Remove="Resources\3_of_diamonds.png" />
+    <None Remove="Resources\3_of_hearts.png" />
+    <None Remove="Resources\3_of_spades.png" />
+    <None Remove="Resources\4_of_clubs.png" />
+    <None Remove="Resources\4_of_diamonds.png" />
+    <None Remove="Resources\4_of_hearts.png" />
+    <None Remove="Resources\4_of_spades.png" />
+    <None Remove="Resources\5_of_clubs.png" />
+    <None Remove="Resources\5_of_diamonds.png" />
+    <None Remove="Resources\5_of_hearts.png" />
+    <None Remove="Resources\5_of_spades.png" />
+    <None Remove="Resources\6_of_clubs.png" />
+    <None Remove="Resources\6_of_diamonds.png" />
+    <None Remove="Resources\6_of_hearts.png" />
+    <None Remove="Resources\6_of_spades.png" />
+    <None Remove="Resources\7_of_clubs.png" />
+    <None Remove="Resources\7_of_diamonds.png" />
+    <None Remove="Resources\7_of_hearts.png" />
+    <None Remove="Resources\7_of_spades.png" />
+    <None Remove="Resources\8_of_clubs.png" />
+    <None Remove="Resources\8_of_diamonds.png" />
+    <None Remove="Resources\8_of_hearts.png" />
+    <None Remove="Resources\8_of_spades.png" />
+    <None Remove="Resources\9_of_clubs.png" />
+    <None Remove="Resources\9_of_diamonds.png" />
+    <None Remove="Resources\9_of_hearts.png" />
+    <None Remove="Resources\9_of_spades.png" />
+    <None Remove="Resources\ace_of_clubs.png" />
+    <None Remove="Resources\ace_of_diamonds.png" />
+    <None Remove="Resources\ace_of_hearts.png" />
+    <None Remove="Resources\ace_of_spades.png" />
+    <None Remove="Resources\black_joker.png" />
+    <None Remove="Resources\jack_of_clubs.png" />
+    <None Remove="Resources\jack_of_diamonds.png" />
+    <None Remove="Resources\jack_of_hearts.png" />
+    <None Remove="Resources\jack_of_spades.png" />
+    <None Remove="Resources\king_of_clubs.png" />
+    <None Remove="Resources\king_of_hearts.png" />
+    <None Remove="Resources\king_of_spades.png" />
+    <None Remove="Resources\queen_of_clubs.png" />
+    <None Remove="Resources\queen_of_diamonds.png" />
+    <None Remove="Resources\queen_of_hearts.png" />
+    <None Remove="Resources\queen_of_spades.png" />
+    <None Remove="Resources\red_joker.png" />
+    <None Remove="RizzCasinoLogo.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\Kaarten\10_of_clubs.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Kaarten\10_of_diamonds.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Kaarten\10_of_hearts.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Kaarten\10_of_spades.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Kaarten\2_of_clubs.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Kaarten\2_of_diamonds.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Kaarten\2_of_hearts.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Kaarten\2_of_spades.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Kaarten\3_of_clubs.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Kaarten\3_of_diamonds.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Kaarten\3_of_hearts.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Kaarten\3_of_spades.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Kaarten\4_of_clubs.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Kaarten\4_of_diamonds.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Kaarten\4_of_hearts.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Kaarten\4_of_spades.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Kaarten\5_of_clubs.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Kaarten\5_of_diamonds.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Kaarten\5_of_hearts.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Kaarten\5_of_spades.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Kaarten\6_of_clubs.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Kaarten\6_of_diamonds.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Kaarten\6_of_hearts.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Kaarten\6_of_spades.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Kaarten\7_of_clubs.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Kaarten\7_of_diamonds.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Kaarten\7_of_hearts.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Kaarten\7_of_spades.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Kaarten\8_of_clubs.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Kaarten\8_of_diamonds.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Kaarten\8_of_hearts.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Kaarten\8_of_spades.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Kaarten\9_of_clubs.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Kaarten\9_of_diamonds.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Kaarten\9_of_hearts.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Kaarten\9_of_spades.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Kaarten\ace_of_clubs.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Kaarten\ace_of_diamonds.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Kaarten\ace_of_hearts.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Kaarten\ace_of_spades.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Kaarten\black_joker.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\dobbel1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\dobbel2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\dobbel3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\dobbel4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\dobbel5.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\dobbel6.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Kaarten\jack_of_clubs.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Kaarten\jack_of_diamonds.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Kaarten\jack_of_hearts.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Kaarten\jack_of_spades.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Kaarten\king_of_clubs.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Kaarten\king_of_hearts.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Kaarten\king_of_spades.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Kaarten\queen_of_clubs.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Kaarten\queen_of_diamonds.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Kaarten\queen_of_hearts.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Kaarten\queen_of_spades.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Kaarten\red_joker.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RizzCasinoLogo.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
